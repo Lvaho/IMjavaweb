@@ -1,0 +1,276 @@
+/* é¡µé¢å¼•å…¥srcå…¼å®¹es6å‡ºçŽ°çš„bug */
+body {
+  overflow: hidden;
+}
+.base {
+  margin: -17px auto;
+}
+.policy h1 {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 22px;
+}
+
+.policy .preface p {
+  margin-bottom: 0px;
+}
+
+.policy .introduce {
+  /* margin-top: 22px; */
+}
+
+.policy .introduce p {
+  text-indent: 0px;
+  margin-bottom: 0px;
+  /* font-weight: bold; */
+}
+
+.main-text {
+  margin-top: 22px !important;
+}
+
+.main-text h2 {
+  margin-top: 22px;
+}
+
+.main-text a {
+  color: #3181f9;
+}
+
+.main-text a:hover {
+  /* text-decoration: underline; */
+}
+
+.main-text .first-p {
+  /* margin-top: 22px; */
+}
+
+.main-text p {
+  margin-bottom: 0px !important;
+}
+
+.list-item {
+  /* text-indent: 60px !important; */
+}
+
+.sub-list-item {
+  /* text-indent: 60px !important; */
+}
+
+.mid-paragraph {
+  /* margin-top: 22px !important; */
+}
+
+.small-title {
+  text-indent: 0px !important;
+}
+
+.bottom-inscribe {
+  /* margin-top: 22px !important; */
+}
+
+.bottom-inscribe p {
+  text-indent: 0px !important;
+}
+
+.font-bold {
+  font-weight: bold !important;
+}
+
+.under-line {
+  /* text-decoration: underline; */
+}
+
+@media screen and (max-width: 1679px) {
+  .about_ground {
+    padding: 66px 0 !important;
+  }
+
+  .policy h1 {
+    font-size: 14px;
+  }
+
+  .about_ground p {
+    font-size: 12px;
+    color: #333333;
+    letter-spacing: 0.34px;
+    line-height: 28px;
+    text-indent: 0px;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about_ground div {
+    width: 608px !important;
+  }
+}
+
+/* å¤´éƒ¨ */
+.top-header {
+  height: 80px;
+}
+
+.logo-info {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 21px 0 0 36px;
+  display: block;
+  height: 100%;
+  float: left;
+}
+
+.logo-info .logo-icon {
+  width: 130px;
+  height: 36px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.logo-info span {
+  font-size: 24px;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: rgb(51, 51, 51);
+  line-height: 33px;
+}
+
+.logo-info .logo-name {
+  margin-left: 3px;
+}
+
+.logo-info .separator {
+  color: #999999;
+  margin-left: 0px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.logo-info .page-name {
+  margin-left: 3px;
+}
+
+.header-opt-bar {
+  display: flex;
+  display: -ms-flexbox;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 40px 0 0;
+  float: right;
+}
+
+.header-opt-bar .bar-item {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-right: 51px;
+  opacity: 0.8;
+}
+
+.header-opt-bar .bar-item:hover {
+  opacity: 1;
+}
+
+.header-opt-bar .feedback {
+  background-image: url("../images/videos/icon_feedback.png");
+}
+
+.header-opt-bar .client {
+  background-image: url("../images/videos/icon_client.png");
+}
+
+.header-opt-bar .contact {
+  background-image: url("../images/videos/icon_contact.png");
+}
+
+.header-opt-bar .avatar {
+  cursor: pointer;
+  display: flex;
+  box-sizing: border-box;
+  display: -ms-flexbox;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid rgba(49, 129, 249, 1);
+  background-color: #fff;
+  width: 46px;
+  height: 46px;
+}
+
+.header-opt-bar .avatar img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 1);
+}
+
+.header-normal-bar {
+  /* width: calc(50% - 36px); */
+  width: 50%;
+  padding-right: 36px;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 36px;
+  line-height: 80px;
+  text-align: right;
+}
+
+.header-normal-bar span {
+  font-size: 18px;
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",
+    sans-serif;
+  font-weight: 600;
+  color: rgb(51, 51, 51);
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.header-normal-bar span:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1679px) {
+  .top-header .logo-info span {
+    font-size: 22px;
+  }
+
+  .top-header .logo-info .logo-icon {
+    width: 122px;
+    height: 34px;
+  }
+
+  .top-header .header-normal-bar span {
+    font-size: 16px;
+  }
+
+  .default_bottom_line a {
+    font-size: 12px;
+  }
+}
+
+/* å°¾éƒ¨ */
+.default_bottom_line a {
+  margin: 0 6px !important;
+  color: #999;
+  font-size: 14px;
+}
+
+.default_bottom_line a:hover {
+  cursor: pointer;
+  /* text-decoration: underline; */
+}
+
+@media screen and (min-width: 1280px) {
+  .default_bottom {
+    /* margin: {} */
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  .default_bottom {
+    margin: 41px auto;
+  }
+}
